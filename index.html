@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <meta name="description" content="Финклуб - это профессиональный брокер в сфере кредитования, который уже 10 лет качественно оказывает помощь в получении кредита: ипотеки, автокредитов и бизнес-кредитов">
+    <meta name="keywords" content="Финклуб помощь в получении кредита, автокредит, ипотека, кредит на бизнес">
+    <meta property="og:title" content="Финклуб помощь в получении кредита, автокредит, ипотека, кредит на бизнес" />
+    <meta property="og:description" content="Финклуб помощь в получении кредита, автокредит, ипотека, кредит на бизнес" />
+    <meta property="og:image" content="http://myfinclub.ru/img/logofin.png">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://myfinclub.ru" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Финклуб помощь в получении кредита, автокредита, ипотеки, кредит на бизнес</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light"> <!--add fixed-top for fixed navbar and change color-->
+        <a class="navbar-brand" href="#">
+			<img class="lazy" data-src="img/fulllogo.png" width="140"  class="d-inline-block align-top" alt="">
+		</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul style="font-size: 1em;font-weight: 500;" class="bluetext navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item" style="margin-left: 2em;">
+                    <a class="nav-link bluetext activeh" href="index.html">главная<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bluetext" href="ipoteka.html">ипотека</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bluetext" href="avtokred.html">автокредит</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bluetext" href="#">бизнес</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bluetext" href="#">партнерам</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bluetext" href="#">статьи</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <p id="navtext"  class="my-2 my-sm-0 pr-3 d-none d-xl-flex"><i  style="padding-right: 0.5em;font-size: 1.2em;color:lightgrey;margin-top: 0.1em;" class="fa fa-map-marker" aria-hidden="true"></i>г. Новосибирск, ул. Семьи Шамшиных, 24</p>
+                <p id="navtext2"  class="my-2 my-sm-0 pr-3 d-none d-lg-flex"> <i style="padding-right: 0.5em;color:lightgrey;font-size: 1.2em;margin-top: 0.1em;" class="fa fa-phone" aria-hidden="true"></i>8 (983) 304-15-97</p>
+                <button type="button" class="btn greenbutton  my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal">Войти</button>
+            </form>
+        </div>
+    </nav>
+
+<!--login form-->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Форма Входа</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    В разработке
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Войти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--massege from-->
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="row gradient">
+                    <div class="col modal_window">
+                        <button type="button" style="position: absolute;right: 20px;z-index: 999;" class="close" data-dismiss="modal" aria-label="Close">
+                            <span style="margin-right: -1em;" aria-hidden="true">&times;</span>
+                        </button>
+                        <form class="fofm">
+                            <h2 style="padding: 1em 0 0 1em;margin-bottom: 1.5em;">Заявка на кредит</h2>
+                            <div style="margin-bottom: 1em;" class="col">
+                                <input type="text" class="form-control" placeholder="Фамилия, имя и отчество*" name="txtname" required>
+                                <input type="text" class="form-control phone" placeholder="Телефон*" name="txtphone">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <select name="drop_downmenu" style="width: 100%;" class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                                            <option value="ipoteka" selected>Вид кредита:</option>
+                                            <option value="ipoteka">Ипотека</option>
+                                            <option value="avtokredit">Автокредит</option>
+                                            <option disabled value="biznes">Бизнес</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" id="inpval" class="form-control" placeholder="Сумма кредита*" name="summa">
+                                    </div>
+                                </div>
+                                <button style="margin-bottom: 5em;margin-top: 1rem;" type="submit" class="btn btn-send w-20" data-toggle="#" data-target="#">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--slider-->
+
+    <div id="hidden" style="position: relative;" class="-banner-container ">
+        <div class="tp-banner-container d-none d-md-block">
+            <div class="tp-banner">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img class="lazy" src="img/slide-1.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption medium_bg_asbestos lfl greencolorslide" data-x="0" data-y="0" data-speed="2000" data-start="1200" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 6;width: 50%;height: 100%;">
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption lfl whitetextbig" data-x="center" data-y="center" data-voffset="-100" data-hoffset="-430" data-speed="400" data-start="2500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6;"> Автокредит
+                        </div>
+                        <div class="tp-caption lfl whitetextsmall" data-x="center" data-y="center" data-voffset="20" data-hoffset="-380" data-speed="600" data-start="3000" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">Забирайте машину мечты
+                            <br>на самых выгодных условиях.
+                        </div>
+                        <div class="tp-caption lfl" data-x="center" data-y="center" data-voffset="120" data-hoffset="-467" data-speed="800" data-start="3500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
+                            <a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a>
+                            <a style="color: white;" class="btn btn-default lfl btnwhite " href="avtokred.html" role="button">Подробнее</a>
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img class="lazy" src="img/ipot.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption medium_bg_asbestos lfl greencolorslide" data-x="0" data-y="0" data-speed="2000" data-start="1200" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 6;width: 50%;height: 100%;">
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption lfl whitetextbig" data-x="center" data-y="center" data-voffset="-100" data-hoffset="-430" data-speed="400" data-start="2500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6;">Ипотека
+                        </div>
+                        <div class="tp-caption lfl whitetextsmall" data-x="center" data-y="center" data-voffset="20" data-hoffset="-395" data-speed="600" data-start="3000" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">Собственное жилье
+                            <br> в короткие сроки.
+                        </div>
+                        <div class="tp-caption lfl" data-x="center" data-y="center" data-voffset="120" data-hoffset="-415" data-speed="800" data-start="3500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
+                            <a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a>
+                            <a style="color: white;" class="btn btn-default lfl btnwhite " href="ipoteka.html" role="button">Подробнее</a>
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img class="lazy" src="img/invest14.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption medium_bg_asbestos lfl greencolorslide" data-x="0" data-y="0" data-speed="2000" data-start="1200" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 6;width: 50%;height: 100%;">
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption lfl whitetextbig" data-x="center" data-y="center" data-voffset="-100" data-hoffset="-430" data-speed="400" data-start="2500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6;"> Бизнес
+                        </div>
+                        <div class="tp-caption lfl whitetextsmall" data-x="center" data-y="center" data-voffset="20" data-hoffset="-355" data-speed="600" data-start="3000" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">Кредиты на открытие
+                            <br>и расширение бизнеса.
+                        </div>
+                        <div class="tp-caption lfl " data-x="center" data-y="center" data-voffset="120" data-hoffset="-395" data-speed="800" data-start="3500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
+                            <a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a>
+                            <a style="color: white;" class="btn btn-default lfl btnwhite " href="#aboutbutton" role="button">Подробнее</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hidden" style="position: relative;" class="-banner-container">
+        <div class="tp-banner-container d-block d-sm-none d-md-none d-xl-none">
+            <div class="tp-banner1">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img class="lazy" src="img/slide-1.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption medium_bg_asbestos lft greencolorslide" data-x="0" data-y="0" data-speed="2000" data-start="1200" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 6;width: 100%;height: 50%;">
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption lft " data-x="center" data-y="center" data-voffset="-250" data-hoffset="0" data-speed="400" data-start="2500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; font-size: 2.8em"> Автокредит
+                        </div>
+                        <div class="tp-caption lft whitetextslidebig" data-x="center" data-y="center" data-voffset="-170" data-hoffset="0" data-speed="600" data-start="3000" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6;font-size: 1.3em;">Забирайте машину мечты на <br>самых выгодных условиях.
+                        </div>
+                        <div class="tp-caption lft" data-x="center" data-y="center" data-voffset="-60" data-hoffset="0" data-speed="800" data-start="3500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
+                            <a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a>
+                            <a style="color: white;" class="btn btn-default lfl btnwhite open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Читать подробнее</a>
+                           
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img class="lazy" src="img/ipoteka.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption medium_bg_asbestos lft greencolorslide" data-x="0" data-y="0" data-speed="2000" data-start="1200" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 6;width: 100%;height: 50%;">
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption lft " data-x="center" data-y="center" data-voffset="-250" data-hoffset="0" data-speed="400" data-start="2500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; font-size: 3em">Ипотека
+                        </div>
+                        <div class="tp-caption lft whitetextslidebig" data-x="center" data-y="center" data-voffset="-150" data-hoffset="0" data-speed="600" data-start="3000" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6;font-size: 1.5em;">Собственное жилье
+                            <br> в короткие сроки.
+                        </div>
+                        <div class="tp-caption lft" data-x="center" data-y="center" data-voffset="-60" data-hoffset="0" data-speed="800" data-start="3500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
+                            <a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a>
+                            <a style="color: white;" class="btn btn-default lfl btnwhite open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Читать подробнее</a>
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img class="lazy" src="img/invest14.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption medium_bg_asbestos lft greencolorslide" data-x="0" data-y="0" data-speed="2000" data-start="1200" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 6;width: 100%;height: 50%;">
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption lft " data-x="center" data-y="center" data-voffset="-250" data-hoffset="0" data-speed="400" data-start="2500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; font-size: 3em"> Бизнес
+                        </div>
+                        <div class="tp-caption lft whitetextslidebig" data-x="center" data-y="center" data-voffset="-150" data-hoffset="0" data-speed="600" data-start="3000" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6;font-size: 1.5em">Кредиты на открытие
+                            <br>и расширение бизнеса.
+                        </div>
+                        <div class="tp-caption lft" data-x="center" data-y="center" data-voffset="-60" data-hoffset="0" data-speed="800" data-start="3500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
+                            <a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a>
+                            <a style="color: white;" class="btn btn-default lfl btnwhite open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Читать подробнее</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer"></div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="row">
+  <div class="col-12 text-center d-block d-sm-block d-md-none d-lg-none">
+    <a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Задать вопрос</a>
+<a style="color: white;" class="btn btn-default lfl btnwhite " href="#aboutbutton" role="button">Подробнее</a>
+  </div>
+</div>
+-->
+    <div id="iconpack" class="container">
+        <div class="row iconpack">
+            <div class="col-12 col-sm-12 col-md-4 col-xl-4 text-center">
+                <img class="lazy" style="width: 2.0em; padding-bottom: 2.4em;" data-src="img/Оперативно.png" alt="Оперативно">
+                <p style="font-size: 1.5em; font-weight: 600; color: #435289;padding-bottom: 0.5em;">Оперативно</p>
+                <p>Решаем быстро и в срок</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-xl-4  text-center">
+                <img class="lazy" style="width: 3.5em; padding-bottom: 2.7em;" data-src="img/Большие суммы.png" alt="Большие суммы">
+                <p style="font-size: 1.5em; font-weight: 600; color: #435289;padding-bottom: 0.5em;">Большие суммы</p>
+                <p>Когда требуется много и прямо сейчас </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-xl-4  text-center">
+                <img class="lazy" style="width: 2.5em; padding-bottom: 3em;" data-src="img/Без трудоустройства.png" alt="Без трудоустройства">
+                <p style="font-size: 1.5em; font-weight: 600; color: #435289;padding-bottom: 0.5em;">Без трудоустройства</p>
+                <p>Не нужно иметь “белую” зарплату </p>
+            </div>
+        
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div style="padding-bottom: 1em;" class="col text-center">
+                <h1 style="padding-bottom: 1em;">Получить кредит с «Финклубом» - просто!</h1>
+                <h6 style="line-height: 1.5;">Избавьте себя от бумажной волокиты - обратитесь к профессионалам! Мы подберем для вас максимально выгодные условия.<br>Лучшие кредитные программы в проверенных банках страны.<br>Сотрудничать с экспертами «Финклуба»: быстро, просто, надежно.</h6>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div style="height:10em;width:5em;padding: 5em;" id="atoms" class="col d-none d-xl-flex">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div style="margin-top: 4em;padding: 3em 0em;" class="d-flex ">
+                <h1>Выбери лучшее предложение</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div style="background: #95d343;margin:0.3em;border-radius: 0.2em; color: white;" class="col-12 col-sm-5 col-md-5 col-lg-5">
+                    <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                    <span style="position: absolute;padding:.8em;"><a href="ipoteka.html">Ипотека</a></span>
+                </div>
+                <div style="background: #95d343;margin:0.3em;border-radius: 0.2em; color: white;" class="col-12 col-sm-5 col-md-5 col-lg-5">
+                    <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                    <span style="position: absolute;padding:.8em;"><a href="avtokred.html">Автокредит</a></span>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div style="background: #95d343;margin:0.3em;border-radius: 0.2em; color: white;" class="col-12 col-sm-5 col-md-5 col-lg-5">
+                    <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                    <span style="position: absolute;padding:.8em;"><a href="#">Бизнес-кредитование</a></span>
+                </div>
+                <div style="background: #95d343;margin:0.3em;border-radius: 0.2em; color: white;" class="col-12 col-sm-5 col-md-5 col-lg-5">
+                    <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+                    <span style="position: absolute;padding:.8em;"><a href="#">Партнерам</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none d-xl-flex justify-content-center">
+        <div class="row">
+            <div style="padding: 3em 0;" class="col-12 text-center">
+                <h1> Отзывы довольных клиентов</h1>
+            </div>
+        </div>
+    </div>
+    <div class="d-none d-xl-flex justify-content-center" style="background: #e6e4cf;height: auto;height: 300px;">
+        <div class="container-fluid ">
+            <div class="row justify-content-center">
+                <div class="img d-none d-xl-flex">
+                    <img class="lazy" style="width: 20em; position: absolute; margin:-6em;" data-src="img/bcglogo.png" alt="">
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div style="width: 800px;" class=" carousel-item active">
+                            <br>
+                            <img class="lazy" style="width: 100px;float: left;" data-src="img/Avatar-women.png" alt="">
+                            <br>
+                            <br>
+                            <span style="padding-left: 5em;font-weight: 600">Мария, 32. Автокредит:</span>
+                            <br>
+                            <br> Моя кредитная история меня сильно подвела… Стоит только один- два раз задержать выплаты – так все, дальше с кредитами будет беда. У меня очень нестабильная работа, есть задержки по зарплатам, вот и вовремя не внесла за прошлую машину. Думала, что теперь точно все… Ни один банк не одобрит мне еще один автокредит. Но ура-ура, все получилось! Подобрали мне хорошие условия, банк надежный. Езжу на красной Mazda и очень довольна!
+                        </div>
+                        <div style="width: 800px;" class="carousel-item ">
+                            <br>
+                            <img class="lazy" style="width: 100px;float: left;" data-src="img/Avatar-investor.png" alt="">
+                            <br>
+                            <br>
+                            <span style="padding-left: 5em;font-weight: 600">Михаил, 36. Автокредит:</span>
+                            <br>
+                            <br> Хочется выразить благодарность за добропорядочное отношение к клиентам и к своим обязанностям сотрудникам Гутовой Екатерине и Стаценко Екатерине. Сегодня оформляли автокредит. И было много препонов и заморочек, но девчонки не ушли до 22 часов, пока не разрешили все проблемы. Браво!
+                        </div>
+                        <div style="width: 800px;" class="carousel-item ">
+                            <br>
+                            <img class="lazy" style="width: 100px;float: left;" data-src="img/Avatar-family.png" alt="">
+                            <br>
+                            <br>
+                            <span style="padding-left: 5em;font-weight: 600">Андрей, 32 года. Автокредит:</span>
+                            <br>
+                            <br> Хочу выразить благодарность менеджеру Алексею и менеджеру кредитного отдела Екатерине. Не буду писать много пафосных слов, а просто приведу факты. Мы пришли в 10.00 и уехали на машине в 23.00 (хотя офис работают до 19.00). Получается, мы за 13 часов купили автомобиль, имея при себе только паспорт и водительское удостоверение. Когда еще раз буду покупать машину, обращусь только в ФИНКЛУБ, только к Алексею и Екатерине. Всем буду советовать. Еще раз спасибо!!!
+                        </div>
+                        <div style="padding-top: 2em;" class="row">
+                            <!--<div class="col-6">21.09.2017</div>
+            	<div class="col-6 text-right">Logo</div>-->
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        	<span style="position: absolute;margin-left: -10em;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+        	<span class="sr-only">Previous</span>
+        </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        	<span style="position: absolute;margin-left: 10em;" class="carousel-control-next-icon" aria-hidden="true"></span>
+        	<span class="sr-only">Next</span>
+        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none d-xl-flex justify-content-center">
+        <div class="row">
+            <div style="padding: 3em;" class="col-12 text-center">
+                <h1>Составляющие успеха</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none d-xl-flex justify-content-center">
+        <div class="row">
+            <div style="padding-bottom: 3em;" class="col text-center">
+                <img class="lazy" style="width: 45em;" data-src="img/line.png" alt="">
+                <div style="margin:-2.8em 0 0 1em;color: white;" class="col-3">
+                    Клиенториентированность
+                </div>
+                <div style="margin:-1.5em 0 0 21em;color: white;" class="col-3">
+                    Профессионализм
+                </div>
+                <div style="margin:-1.4em 0 0 34em;color: white;" class="col-3">
+                    Надежность
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div style="padding-top: 4em;" class="row justify-content-center">
+            <h2>Cтатьи</h2>
+        </div>
+        <div class="row ">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4  graynews text-center">
+                <p style="font-weight: 600"><a href="#">Виды платежей</a></p>
+                <p style="text-align: left;">Статья
+                    <br>
+                    <a href="#">читать полностью...</a></p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4  graynews text-center">
+                <p style="font-weight: 600"><a href="#">Виды платежей</a></p>
+                <p style="text-align: left;">Статья
+                    <br>
+                    <a href="#">читать полностью...</a></p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4  graynews text-center">
+                <p style="font-weight: 600"><a href="#">Виды платежей</a></p>
+                <p style="text-align: left;">Статья
+                    <br>
+                    <a href="#">читать полностью...</a></p>
+            </div>
+        </div>
+        <div class="row d-none">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 graynews text-center">
+                <p style="font-weight: 600"><a href="#">Виды платежей</a></p>
+                <p style="text-align: left;">Статья
+                    <br>
+                    <a href="#">читать полностью...</a></p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 graynews text-center">
+                <p style="font-weight: 600"><a href="#">Виды платежей</a></p>
+                <p style="text-align: left;">Статья
+                    <br>
+                    <a href="#">читать полностью...</a></p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 graynews text-center">
+                <p style="font-weight: 600"><a href="#">Виды платежей</a></p>
+                <p style="text-align: left;">Статья
+                    <br>
+                    <a href="#">читать полностью...</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none d-xl-flex justify-content-center">
+        <div style="padding: 4em;" class="row">
+            <div class="col text-center">
+                <h2>Наши партнеры</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none d-xl-flex justify-content-center">
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <img class="lazy" style="padding-bottom: 4em;width: 100%;"  data-src="img/banks.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <img class="lazy" style="width: 10em;padding-top:2em;float: left;" data-src="img/Finik.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <p style="padding-top: 3em;color: white;font-size: 0.8em">ООО "ФИНКЛУБ" г.Новосибирск, ул.Семьи Шамшиных, 24
+                        <br> Тел.:8 (983) 304-15-97 Часы работы: с 10:00 - 19:00
+                    </p>
+                </div>
+                <div class="col-3 text-right d-none d-xl-block">
+                    <i style="padding:0.5em 0.5em;font-size: 0.7em;background:#4054ad;border-radius: 50%;width: 2.1em;color:#2c345b;margin-top:3.5em;" class="fa fa-vk socialicons1 " aria-hidden="true"></i>
+                    <i style="padding:0.5em 0.7em;font-size: 0.7em;background:#4054ad;border-radius: 50%;width: 2.1em;color:#2c345b;margin-top:3.5em;" class="fa fa-odnoklassniki socialicons1 " aria-hidden="true"></i>
+                    <i style="padding:0.5em 0.5em;font-size: 0.7em;background:#4054ad;border-radius: 50%;width: 2.1em;color:#2c345b;margin-top:3.5em;" class="fa fa-twitter socialicons1 " aria-hidden="true"></i>
+                    <i style="padding:0.5em 0.7em;font-size: 0.7em;background:#4054ad;border-radius: 50%;width: 2.1em;color:#2c345b;margin-top:3.5em;" class="fa fa-facebook socialicons1 " aria-hidden="true"></i>
+                    <i style="padding:0.5em 0.6em;font-size: 0.7em;background:#4054ad;border-radius: 50%;width: 2.1em;color:#2c345b;margin-top:3.5em;" class="fa fa-instagram socialicons1 " aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <link rel="stylesheet" href="css/settings.css"> <!--!-->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+    <script type="text/javascript" src="js/jquery.lazy.min.js"></script>
+
+
+
+
+    <script type="text/javascript">
+    $(function() {
+        $.mask.definitions['~'] = "[+-]";
+        $(".phone").mask("+7(999)999-99-99");
+        $("input").blur(function() {
+            $("#info").html("Unmasked value: " + $(this).mask());
+        }).dblclick(function() {
+            $(this).unmask();
+        });
+    });
+    </script>
+    <script type="text/javascript">
+    var revapi;
+
+    jQuery(document).ready(function() {
+
+        revapi = jQuery('.tp-banner').revolution({
+            delay: 8000,
+            startwidth: 1000,
+            startheight: 400,
+            hideThumbs: 10,
+            fullWidth: "on",
+            fullScreenAlignForce: "on",
+            touchenabled: "on",
+            onHoverStop: "off",
+            navigationArrows: "solo",
+            navigationType: "none",
+            lazyLoad: "on"
+
+
+        });
+
+    }); //ready
+    </script>
+ <script type="text/javascript">
+    var revapi;
+
+    jQuery(document).ready(function() {
+
+        revapi = jQuery('.tp-banner1').revolution({
+            delay: 8000,
+            startwidth: 400,
+            startheight: 600,
+            hideThumbs: 10,
+            fullWidth: "on",
+            fullScreenAlignForce: "on",
+            touchenabled: "on",
+            onHoverStop: "off",
+            navigationArrows: "solo",
+            navigationType: "none",
+            lazyLoad: "on"
+
+
+        });
+
+    }); //ready
+    </script>
+
+
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45945279 = new Ya.Metrika({ id:45945279, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45945279" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+</body>
+</html>

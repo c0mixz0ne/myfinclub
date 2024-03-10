@@ -1,0 +1,543 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <meta name="description" content="Ипотека - помощь в получении">
+    <meta name="keywords" content="Ипотека - помощь в получении">
+    <meta property="og:title" content="Ипотека - помощь в получении" />
+    <meta property="og:description" content="Ипотека - помощь в получении" />
+    <meta property="og:image" content="http://myfinclub.ru/img/logofin.png">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://myfinclub.ru/ipoteka.html" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Финклуб помощь в получении кредита, автокредита, ипотеки, кредит на бизнес</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light"> <!--add fixed-top for fixed navbar and change color-->
+        <a class="navbar-brand" href="#">
+      <img class="lazy" data-src="img/fulllogo.png" width="140"  class="d-inline-block align-top" alt="">
+    </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div style="margin-left: 2em;" class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul style="font-size: 1em;font-weight: 500;" class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link  bluetext" href="index.html">главная<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  bluetext activeh" href="ipoteka.html">ипотека</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bluetext" href="avtokred.html">автокредит</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bluetext" href="#">бизнес</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bluetext" href="#">партнерам</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bluetext" href="#">статьи</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <p id="navtext" class="my-2 my-sm-0 pr-3 d-none d-xl-flex"><i style="color:lightgrey;padding-right: 0.5em;font-size: 1.2em;margin-top: 0.1em;" class="fa fa-map-marker" aria-hidden="true"></i>г. Новосибирск, ул. Семьи Шамшиных, 24</p>
+                <p id="navtext2" class="my-2 my-sm-0 pr-3 d-none d-lg-flex"> <i style="color:lightgrey;padding-right: 0.5em;font-size: 1.2em;margin-top: 0.1em;" class="fa fa-phone" aria-hidden="true"></i>8 (983) 304-15-97</p>
+                <button type="button" class="btn greenbutton  my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal">Войти</button>
+            </form>
+        </div>
+    </nav>
+    <!--login form-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Форма Входа</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    В разработке
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Войти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--massege from-->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="row gradient">
+                    <div class="col modal_window">
+                        <button type="button" style="position: absolute;right: 20px;z-index: 999;" class="close" data-dismiss="modal" aria-label="Close">
+                            <span style="margin-right: -1em;" aria-hidden="true">&times;</span>
+                        </button>
+                        <form class="fofm">
+                            <h2 style="padding: 1em 0 0 1em;margin-bottom: 1.5em;">Заявка на кредит</h2>
+                            <div style="margin-bottom: 1em;" class="col">
+                                <input type="text" class="form-control" placeholder="Фамилия, имя и отчество*" name="txtname" required>
+                                <input type="text" class="form-control phone" placeholder="Телефон*" name="txtphone" required>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <select name="drop_downmenu" style="width: 100%;" class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                                            <option disabled>Вид кредита:</option>
+                                            <option selected value="ipoteka">Ипотека</option>
+                                            <option value="avtokredit">Автокредит</option>
+                                            <option disabled value="biznes">Бизнес</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" id="inpval" class="form-control" placeholder="Сумма кредита*" name="summa" required>
+                                    </div>
+                                </div>
+                                <button style="margin-bottom: 5em;margin-top: 1rem;" type="submit" class="btn btn-send w-20" data-toggle="#" data-target="#">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="hidden" style="position: relative;" class="-banner-container ">
+        <div class="tp-banner-container  d-none d-md-block">
+            <div class="tp-banner">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img  src="img/ipot.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption medium_bg_asbestos lfl greencolorslide" data-x="0" data-y="0" data-speed="2000" data-start="1200" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 6;width: 50%;height: 100%;">
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption lfl whitetextbig" data-x="center" data-y="center" data-voffset="-100" data-hoffset="-430" data-speed="400" data-start="2500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6;"> Ипотека
+                        </div>
+                        <div class="tp-caption lfl whitetextsmall" data-x="center" data-y="center" data-voffset="30" data-hoffset="-430" data-speed="600" data-start="3000" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6;">Обретаем свой
+                            <br>уютный уголок
+                        </div>
+                        <div class="tp-caption lfl" data-x="center" data-y="center" data-voffset="150" data-hoffset="-470" data-speed="800" data-start="3500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
+                            <a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a>
+                            <!--<a style="color: white;" class="btn btn-default lfl btnwhite " href="#aboutbutton" role="button">Подробнее</a>-->
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer"></div>
+            </div>
+        </div>
+    </div>
+
+        <div id="hidden" style="position: relative;" class="-banner-container">
+        <div class="tp-banner-container d-block d-sm-none d-md-none d-xl-none">
+            <div class="tp-banner1">
+                <ul>
+            
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img src="img/ipoteka.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption medium_bg_asbestos lft greencolorslide" data-x="0" data-y="0" data-speed="2000" data-start="1200" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="on" style="z-index: 6;width: 100%;height: 50%;">
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption lft " data-x="center" data-y="center" data-voffset="-250" data-hoffset="0" data-speed="400" data-start="2500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6; font-size: 3em">Ипотека
+                        </div>
+                        <div class="tp-caption lft whitetextslidebig" data-x="center" data-y="center" data-voffset="-150" data-hoffset="0" data-speed="600" data-start="3000" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6;font-size: 1.5em;">Собственное жилье
+                            <br> в короткие сроки.
+                        </div>
+                        <div class="tp-caption lft" data-x="center" data-y="center" data-voffset="-60" data-hoffset="0" data-speed="800" data-start="3500" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
+                            <a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a>
+                            <a style="color: white;" class="btn btn-default lfl btnwhite open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Читать подробнее</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer"></div>
+            </div>
+        </div>
+    </div>
+    <div id="iconpack" class="container">
+        <div class="row justify-content-center iconpack">
+            <div class="col-12 col-sm-6 col-md-3 col-xl-3 text-center">
+                <img class="lazy" style="width: 4.0em; padding-bottom: 1.8em;" data-src="img/0.png" alt="Оперативно">
+                <p style="font-size: 1.5em; font-weight: 600; color: #435289;padding-bottom: 0.5em;">Без официального дохода</p>
+                <p> Оформление ипотеки по двум документам</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-xl-3 text-center">
+                <img class="lazy" style="width: 3.5em; padding-bottom: 2.5em;" data-src="img/1.png" alt="Большие суммы">
+                <p style="font-size: 1.5em; font-weight: 600; color: #435289;padding-bottom: 2em;">Рефинансирование</p>
+                <p>Погашение старого кредита на более выгодных условиях</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-xl-3 text-center">
+                <img class="lazy" style="width: 3em; padding-bottom: 2.5em;" data-src="img/2.png" alt="Без трудоустройства">
+                <p style="font-size: 1.5em; font-weight: 600; color: #435289;padding-bottom: 0.5em;">Досрочное погашение</p>
+                <p>Сэкономьте на оплате процентов</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-xl-3 text-center">
+                <img class="lazy" style="width: 4em; padding-bottom: 2em;" data-src="img/3.png" alt="Испорченная история">
+                <p style="font-size: 1.4em; font-weight: 600; color: #435289;padding-bottom: 2.3em;">Без первого взноса</p>
+                <p> Достаточно документов и вашего желания</p>
+            </div>
+        </div>
+    </div>
+    <!--<div class="bcg">
+  <img style="position: absolute;width: 18em;left: 20%;z-index: -1;top" src="img/bcglogo.png" alt="">
+</div>-->
+    <div style="height: 370px;" class="container mx-auto d-none d-xl-block justify-content-center">
+        <ul class="nav nav-pills mb-3 justify-content-center nav-fill" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a style="font-size: 1rem;font-weight: 600;" class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#home" role="tab" aria-controls="home" aria-expanded="true">Молодым парам</a>
+            </li>
+            <li class="nav-item">
+                <a style="font-size: 1rem;font-weight: 600;" class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#profile" role="tab" aria-controls="profile" aria-expanded="true">Сильной женщине</a>
+            </li>
+            <li class="nav-item">
+                <a style="font-size: 1rem;font-weight: 600;" class="nav-link" id="pills-message-tab" data-toggle="pill" href="#messages" role="tab" aria-controls="messages" aria-expanded="true">Думающему инвестору</a>
+            </li>
+        </ul>
+        <div style="padding: 3em 5em;" class="tab-content d-none d-xl-flex justify-content-center">
+            <div class="tab-pane active" id="home" role="tabpanel">
+                <img class="lazy" style="border: 3px solid #95d343;border-radius: 50%; width: 14em;float:left;" data-src="img/Avatar-family.png" alt="">
+                <img style="position: absolute;z-index: -1;width: 25em; margin: -6em -21em;
+      " src="img/bcglogo.png" alt="">
+                <p style="padding-left: 17rem;">
+                    <span style="font-size: 1.5rem;">Обустраиваем собственное гнездышко<br><br>
+        </span> Ничто так не говорит о доверии, как совместная ипотека. Банки охотно одобряют кредиты молодым семьям. Для семейных пар есть специальные льготные программы. Супруг всегда может выступить поручителем, стать созаемщиком и выручить в любой момент. Дерзайте!
+                    <br>
+                    <br>
+                    <a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a>
+                </p>
+            </div>
+            <div class="tab-pane" id="profile" role="tabpanel">
+                <img class="lazy" style="border: 3px solid #95d343;border-radius: 50%; width: 14em;float:left; " data-src="img/Avatar-women.png" alt="">
+                <img style="position: absolute;z-index: -1;width: 25em; margin: -6em -21em;
+      " src="img/bcglogo.png" alt="">
+                <p style="padding-left: 17rem;"><span style="font-size: 1.5rem;">Берем ответственность в свои руки<br><br></span>Самодостаточной женщине важно иметь собственное жилье. Место, куда приятно возвращаться… Чтобы рядом была вся необходимая инфраструктура: магазины, детские сады, школы, развлекательные и развивающие центры. Таких предложений на рынке более чем достаточно. Ваша квартира мечты совсем рядом!
+                    <br>
+                    <br><a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a></p>
+            </div>
+            <div class="tab-pane" id="messages" role="tabpanel"><img class="lazy" style="border: 3px solid #95d343;width: 14em;height: 14em; float:left; border-radius: 50%;" data-src="img/investments.jpg" alt="">
+                <img style="position: absolute;z-index: -1;width: 25em; margin: -6em -21em;
+      " src="img/bcglogo.png" alt="">
+                <p style="padding-left: 17rem;"><span style="font-size: 1.5rem;">Уверенно смотрим в будущее <br><br></span>Грамотное вложение средств сохраняет и приумножает капитал. Квартира - один из самых ликвидных продуктов. Возможно, вы захотите в будущем ее выгодно продать или принести в дар. Инвестирование крупной суммы денег в недвижимость - это выбор людей, трепетно относящихся к своему капиталу.
+                    <br>
+                    <br><a style="color: white;" class="btn btn-default lfl btnblue open_modal" data-toggle="modal" data-target=".bd-example-modal-lg" href="#" role="button">Оставить заявку</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none">
+        <div style="margin-top: 4.5em;height: auto;" class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center" id="home" role="tabpanel">
+                <p class="shadow1" style="font-size: 1.3rem;height: 250px;padding-top: 2.5em;"><a onclick="false">Большая<br> победа<br> маленькой <br>семьи</a></p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                <p class="shadow1" style="font-size: 1.3rem;height: 250px;padding-top: 3.3em;"><a onclick="false">Свободный<br> и уверенный<br> полет</a></p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                <p class="shadow1" style="font-size: 1.3rem;height: 250px;padding-top: 3.3em;"><a onclick="false">Уверенно<br> смотрим<br> в будущее</a></p>
+            </div>
+        </div>
+    </div>
+    </form>
+    <div style="margin-top: 4em;margin-bottom: 1em;" class="calc w-auto">
+        <div class="container">
+            <div class="row content-justify-center">
+                <div class="col text-center">
+                    <h1 style="margin-top:2em;margin-bottom: 1em;">Рассчитайте доступную сумму</h1>
+                    <h4 style="margin:0;">Удобные платежи. От <b>9%</b> годовых</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row content-justify-center">
+                <div class="col-12 text-center">
+                    <div class="form-group row">
+                        <label style="padding-top: calc(1.5rem - 1px * 2);" for="inputPassword" class="col-sm-2 col-form-label">Комфортный
+                            <br>платеж/мес</label>
+                        <div class="col-sm-10">
+                            <input style="background: none; " id="amount" readonly type="text" class="form-control my_input" aria-label="Text input with checkbox">
+                            <div id="slider" class="mobileslider" style="width: 70%;margin-top: .4em;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label style="padding-top: 1em;" for="inputPassword" class="col-sm-2 col-form-label">Срок/год</label>
+                        <div class="col-sm-10">
+                            <input style="background: none; " id="amount1" readonly type="text" class="form-control my_input" aria-label="Text input with checkbox">
+                            <input id="platej" type="hidden">
+                            <input id="years" type="hidden">
+                            <div id="slider1" class="mobileslider" style="width: 70%;margin-bottom: 2em;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 ml-auto">
+                <button style="margin:0.5em ;" type="button" class="btn button1 btn-send mx-auto ">Рассчитать</button>
+            </div>
+        </div>
+    </div>
+    <div style="display:none;" id="summ" class="container">
+        <div class="row">
+            <div class="col-md-10 ml-auto">
+                <p id="sum_display">Доступная вам сумма</p>
+                <button id="sumbtn" style="margin:0.5em 3em;" data-toggle="modal" data-target=".bd-example-modal-lg" type="button" class="btn btnred button1 btn-send mx-auto ">Получить</button>
+                <a onclick="recount()" style="margin:0em 0em;cursor: pointer;text-decoration: underline;color: grey;" class="btn mx-auto ">Пересчитать</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div style="padding-top: 3em;" class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>7 шагов вперед</h1>
+                <img class="lazy" style="width: 100%;padding: 5em 0;" data-src="img/1-7.png" alt="">
+            </div>
+        </div>
+    </div>
+    </form>
+    <div class="container  d-xl-block">
+        <div class="row">
+            <div class="col text-center">
+                <h1>Нам доверяют:</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container d-none d-sm-none d-md-block d-lg-block">
+        <div style="" class="row">
+            <div class=" col-6 col-sm-6 col-md-1 col-lg-1 order-2 order-sm-1 order-md-1 order-lg-1 col-sm-1 align-self-center">
+                <div class="col-1"><a href="#" id="prev"><img class="lazy" style="width: 40px;" data-src="img/Для блока отзывы клиентов.png" alt=""></a>
+                </div>
+            </div>
+            <div class="text-center col-10 order-1 order-sm-2 order-md-2 order-lg-2 col-sm-10">
+                <div style="" id="carousel">
+                    <a href="#"><img class="sliderimg" style="width: 20em" src="img/777.jpg" id="item-1" /></a>
+                    <a href="#"><img class="sliderimg" style="width: 30em" src="img/222.jpg" id="item-2" /></a>
+                    <a href="#"><img class="sliderimg" style="width: 30em" src="img/333.jpg" id="item-3" /></a>
+                    <a href="#"><img class="sliderimg" style="width: 20em" src="img/666.jpg" id="item-4" /></a>
+                    <a href="#"><img class="sliderimg" style="width: 20em" src="img/555.jpg" id="item-5" /></a>
+                    <a href="#"><img class="sliderimg" style="width: 30em" src="img/111.jpg" id="item-6" /></a>
+                </div>
+            </div>
+            <div class="text-right col-6 col-sm-6 col-md-1 col-lg-1 order-3 order-sm-3 order-md-3 order-lg-3 col-sm-1 align-self-center"><a href="#" id="next"><img class="lazy" style="width: 40px;transform: rotate(180deg);" data-src="img/Для блока отзывы клиентов.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="greensection">
+        <div class="container">
+            <form class="fofm">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h2 style="color: white; padding-top: 1em;">Пришла пора обрести собственный дом!</h2>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                        <input id="txtname" class="form-control form-control-lg" type="text" name="txtname" required placeholder="Фамилия, имя и отчество*">
+                        <input type="hidden" name="type" value="ipoteka">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <input id="txtphone" class="form-control form-control-lg" type="number" name="txtphone" required placeholder="Мобильный телефон*">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <input id="summa" class="form-control form-control-lg" type="text" name="summa" required placeholder="Сумма*">
+                        <div class="row">
+                            <div class="col text-right">
+                                <button type="submit" class="btn btn_send-greenform" data-toggle="#" data-target="#">Оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div style="width: 100%" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <img class="lazy" style="width: 10em;padding-top:2em;float: left;" data-src="img/Finik.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <p style="padding-top: 3em;color: white;font-size: 0.8em">ООО "ФИНКЛУБ" г.Новосибирск, ул.Семьи Шамшиных, 24
+                        <br> Тел.:8 (983) 304-15-97 Часы работы: с 10:00 - 19:00
+                    </p>
+                </div>
+                <div class="col-3 text-right d-none d-xl-block">
+                    <i style="padding:0.5em 0.5em;font-size: 0.7em;background:#4054ad;border-radius: 50%;width: 2.1em;color:#2c345b;margin-top:3.5em;" class="fa fa-vk socialicons1 " aria-hidden="true"></i>
+                    <i style="padding:0.5em 0.7em;font-size: 0.7em;background:#4054ad;border-radius: 50%;width: 2.1em;color:#2c345b;margin-top:3.5em;" class="fa fa-odnoklassniki socialicons1 " aria-hidden="true"></i>
+                    <i style="padding:0.5em 0.5em;font-size: 0.7em;background:#4054ad;border-radius: 50%;width: 2.1em;color:#2c345b;margin-top:3.5em;" class="fa fa-twitter socialicons1 " aria-hidden="true"></i>
+                    <i style="padding:0.5em 0.7em;font-size: 0.7em;background:#4054ad;border-radius: 50%;width: 2.1em;color:#2c345b;margin-top:3.5em;" class="fa fa-facebook socialicons1 " aria-hidden="true"></i>
+                    <i style="padding:0.5em 0.6em;font-size: 0.7em;background:#4054ad;border-radius: 50%;width: 2.1em;color:#2c345b;margin-top:3.5em;" class="fa fa-instagram socialicons1 " aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/settings.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+    $('#amount').draggable();
+    </script>
+    <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+    <script type="text/javascript" src="js/jquery.lazy.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $.mask.definitions['~'] = "[+-]";
+        $(".phone").mask("+7(999)999-99-99");
+        $("input").blur(function() {
+            $("#info").html("Unmasked value: " + $(this).mask());
+        }).dblclick(function() {
+            $(this).unmask();
+        });
+    });
+    </script>
+    <script>
+    $(function() {
+        $("#slider").slider({
+            value: 15000,
+            min: 5000,
+            max: 100000,
+            step: 5000,
+            slide: function(event, ui) {
+                $("#amount").val(ui.value + ' руб.');
+                $("#platej").val(ui.value);
+            }
+        });
+        $("#amount").val($("#slider").slider("value") + ' руб.');
+        $("#platej").val($("#slider").slider("value"));
+    });
+    </script>
+    <script>
+    $(function() {
+        $("#slider1").slider({
+            value: 10,
+            min: 5,
+            max: 25,
+            step: 1,
+            slide: function(event, ui) {
+                $("#amount1").val(ui.value + ' лет');
+                $("#years").val(ui.value);
+            }
+        });
+        $("#amount1").val($("#slider1").slider("value") + ' лет');
+        $("#years").val($("#slider1").slider("value"));
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var carousel = $("#carousel").waterwheelCarousel({
+            flankingItems: 3,
+            movingToCenter: function($item) {
+                $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+            },
+            movedToCenter: function($item) {
+                $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+            },
+            movingFromCenter: function($item) {
+                $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+            },
+            movedFromCenter: function($item) {
+                $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+            },
+            clickedCenter: function($item) {
+                $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+            }
+        });
+
+        $('#prev').bind('click', function() {
+            carousel.prev();
+            return false
+        });
+
+        $('#next').bind('click', function() {
+            carousel.next();
+            return false;
+        });
+
+        $('#reload').bind('click', function() {
+            newOptions = eval("(" + $('#newoptions').val() + ")");
+            carousel.reload(newOptions);
+            return false;
+        });
+
+    });
+    </script>
+    <script type="text/javascript">
+    var revapi;
+
+    jQuery(document).ready(function() {
+
+        revapi = jQuery('.tp-banner').revolution({
+            delay: 8000,
+            startwidth: 1000,
+            startheight: 400,
+            hideThumbs: 10,
+            fullWidth: "on",
+            fullScreenAlignForce: "on",
+            touchenabled: "on",
+            onHoverStop: "off",
+            navigationArrows: "solo",
+            navigationType: "none",
+            lazyLoad: "on"
+
+
+        });
+
+    }); //ready
+    </script>
+
+     <script type="text/javascript">
+    var revapi;
+
+    jQuery(document).ready(function() {
+
+        revapi = jQuery('.tp-banner1').revolution({
+            delay: 8000,
+            startwidth: 400,
+            startheight: 600,
+            hideThumbs: 10,
+            fullWidth: "on",
+            fullScreenAlignForce: "on",
+            touchenabled: "on",
+            onHoverStop: "off",
+            navigationArrows: "solo",
+            navigationType: "none",
+            lazyLoad: "on"
+
+
+        });
+
+    }); //ready
+    </script>
+
+
+    <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45945279 = new Ya.Metrika({ id:45945279, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45945279" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+</body>
+
+</html>

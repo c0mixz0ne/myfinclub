@@ -1,0 +1,315 @@
+body{
+	font-family: 'PT Sans Caption', sans-serif;
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
+.greencolorslide{
+ background-color:rgba(149, 211, 67, 0.7) !important;
+}
+
+.tp-banner{
+	position: relative;
+}
+#iconpack{
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+#atoms{
+  background: url(../img/Atoms.png) no-repeat; /* Добавляем фон */
+  background-size:contain;
+  background-position: center center ;
+  
+}
+.graynews{
+ background: lightgrey;
+ padding-top: 1.5em !important;
+ border-radius: .3em;
+ border: 3px solid white;
+}
+.footer{
+ background:#2c3459;
+ height: auto;
+}
+.socialicons1:hover{
+  background: #95d343 !important;
+  color: #4053af !important;
+  transition: 0.3s;
+}
+.backround{
+ background: #ebedec;
+ transition: 1s;
+}
+.navbar{
+ transition: 1s;
+
+}
+.activeh
+{
+ color: #0f6c3d !important;
+ font-weight: 700;
+}
+.btnblue{
+ background:#2c3459;
+ color:white;
+
+}
+.btnblue:hover{
+ background:none;
+ color:#2c3459 !important;
+ border:1px solid #2c3459 ;
+}
+.btnwhite{
+ border: 1px solid #2c3459;
+ color: #2c3459 !important;
+ 
+}
+.btnwhite:hover{
+ border: 1px solid white;
+ color: white !important;
+}
+.tablinks{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: lightgrey;
+}
+.tablinks:hover{
+  text-decoration: underline;
+}
+.tablinks>.active{
+  color: green;
+}
+.btn-send{
+  background: #2c3459;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 2rem;
+  font-weight: 100;
+  width: 200px;
+  height: 50px;
+}
+.btn-send:hover{
+  background:none;
+  color: #2c3459;
+  border-radius: 3px;
+  border: 1px solid #2c3459;
+  font-weight: 100;
+}
+.shadow1{
+  background: url(../img/Gray.png) no-repeat; /* Добавляем фон */
+  background-size:contain;
+  background-position: top center ;
+}
+.shadow2{
+  background: url(../img/Green.png) no-repeat; /* Добавляем фон */
+  background-size:contain;
+  background-position: top center ;
+}
+.hide{
+  visibility: hidden;
+}
+.navspan{
+  font-size: 0.5em;
+  line-height: 0.3;
+  font-family: 'PT Sans Caption', sans-serif !important;
+}
+#atoms{
+  background: url(../img/Atoms.png) no-repeat; /* Добавляем фон */
+  background-size:contain;
+  background-position: center center ;
+}
+.navtext{
+  color: green !important;
+}
+.shadow1:hover{
+  background: url(../img/Green.png) no-repeat; /* Добавляем фон */
+  background-size:contain;
+  background-position: top center ;
+  transition: 1s;
+}
+.btnred{
+ background: red;
+ color: white;
+}
+
+@media screen and (max-width: 450px) {
+.mobile_text{
+  font-size: 1em !important;
+}
+.mobile_icon{
+  padding-bottom: 0 !important;
+}
+  
+.sliderimg{
+  width: 7em !important;
+}
+
+ .smalldevice {
+  font-size: 3em !important; 
+}
+
+.mobileslider{
+  width: 100% !important;
+}
+
+.calc{
+  background: url(../img/woomen_mobile.jpg) no-repeat ;
+
+}
+}
+
+
+@media screen and (max-width: 1366px) {
+.navbar-nav{
+  font-size: 0.8em !important;
+}
+}
+
+
+
+
+.example-desc {
+  margin:3px 0;
+  padding:5px;
+}
+
+#carousel {
+  height:500px;
+  position:relative;
+  clear:both;
+  overflow:hidden;
+  background:#FFF;
+}
+#carousel img {
+  visibility:hidden; /* hide images until carousel can handle them */
+  cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+}
+
+
+#callback-output {
+  height:250px;
+  overflow:scroll;
+}
+.greensection{
+  background: #95d343;
+}
+
+.mobile{
+  background: url(../img/mobile.jpg)no-repeat;
+  height: 42em;
+  background-size:cover;
+  background-position: center center;
+  margin-right: 0!important;
+}
+#carousel>a>img{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.carousel-center
+{
+ transition: .2s;
+}
+
+
+#carousel>a>img:not(.carousel-center) { 
+
+  filter: blur(4px) grayscale(100%);
+
+
+}
+
+.calc{
+  background: url(../img/woomen.jpg) no-repeat ;
+  background-size: cover;
+
+}
+.my_input{
+  background: none;
+  border:none;
+
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  background:url(../img/home_slide.png) no-repeat !important;
+  width: 1.7em;
+  height: 1.7em;
+  border: none;
+  top: -0.7em;
+}
+.ui-widget.ui-widget-content {
+  border: none;
+  border-radius: 5px;
+  height: 8px;
+}
+.ui-widget-content{
+  border: none;
+}
+.bluetext {
+  color:#2c3459;
+  transition: 1s;
+}
+.nav-link {
+  transition: 1s;
+}
+.autosection{
+  background: url(../img/porshe.jpg) center center no-repeat ;
+  background-size: cover;
+}
+
+.modal_window{
+  background: url(../img/modal_logo.png) no-repeat;
+  background-size: 200px;
+  background-position:101.7% 100% ;
+  z-index: 999;
+  }
+.gradient{
+  background: linear-gradient(to top, #c1c0c0 0%, #e2e2e2 36%, #ffffff 100%);
+}
+/*@media screen and (max-width: 1300px) {
+ body{
+  font-size: 0.7em !important; 
+}
+*/
+
+.btn_send-greenform{
+  background: #2c3459;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+.btn_send-greenform:hover{
+  background:none;
+  color: #2c3459;
+  border-radius: 3px;
+  border: 1px solid #2c3459;
+  font-weight: 100;
+}
+
+.greenbutton{
+  background: none;
+  border:1px solid #95d343;
+  color: #95d343;
+  transition: 1s;
+}
+.greenbutton:hover{
+  border: 1px solid #34a853;
+  color:#34a853;
+  transition: 1s;
+}
+.whitetextbig{
+  color: white;
+  font-size: 4em;
+}
+.whitetextsmall{
+  color: white;
+  font-size: 2em;
+}
